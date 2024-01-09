@@ -24,5 +24,4 @@ b_div=Button(pro,text="/", font=style , width=8, height=2, bg="yellow").grid(row
 b_equal=Button(pro,text="=", font=style , width=8, height=2, bg="yellow").grid(row=4,column=3, padx= px, pady= py)
 etr=Entry(pro,font="{arial} 18 bold" ,textvariable=txt0,width=31).grid(row=0,columnspan=4,pady=12)
 
-pdx=20
 pro.mainloop()
